@@ -47,25 +47,19 @@ namespace LeetCode.Easy
 
         public int[] GetIndicesThatAddToTargetWithDictionary(int target, int[] nums)
         {
-            var result = new int[2];
-
             var hashMap = new Dictionary<int, int>();
-
-            for (int i = 0; i < nums.Length; i++)
-                hashMap[nums[i]] = i;
-
+            
             for (int i = 0; i < nums.Length; i++)
             {
-                var valueThatAddsToTarget = target - nums[i];
-                if (hashMap[valueThatAddsToTarget] != -1 && hashMap[valueThatAddsToTarget] != i)
-                {
-                    result[0] = i;
-                    result[1] = hashMap[valueThatAddsToTarget];
-                    return result;
-                }
+                int numberToCheck = nums[i];
+                var valueThatAddsToTarget = target - numberToCheck;
+                if (hashMap.TryGetValue(valueThatAddsToTarget, out int index))
+                    return new int[] { i, index };
+
+                hashMap[numberToCheck] = i;
             }
 
-            return result;
+            return Array.Empty<int>();
         }
 
     }
