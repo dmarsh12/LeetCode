@@ -11,11 +11,11 @@
     //Output: [0,1]
     //Explanation: Because nums[0] + nums[1] == 9, we return [0, 1]
 
-    public class TwoSum : Problem
+    public class TwoSum 
     {
-        public int[] NumberArray { get; set; } = new int[] { 2, 7, 11, 15};
+        private static int[] NumberArray { get; set; } = new int[] { 2, 7, 11, 15};
 
-        public int[] GetIndicesThatAddToTarget(int target = 9)
+        public static int[] GetIndicesThatAddToTarget(int target = 9)
         {
             var result = new int[2];
 

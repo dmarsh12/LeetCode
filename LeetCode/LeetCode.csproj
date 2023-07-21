@@ -8,8 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Hard\**" />
+    <EmbeddedResource Remove="Hard\**" />
+    <None Remove="Hard\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Medium\" />
-    <Folder Include="Hard\" />
   </ItemGroup>
 
 </Project>

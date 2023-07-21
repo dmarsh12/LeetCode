@@ -26,12 +26,8 @@ namespace LeetCode.Easy
     Input: s = "(]"
     Output: false*/
 
-	public class ValidParenthesis : IProblem
+	public static class ValidParenthesis
 	{
-        public string? Result { get; set; }
-
-        protected ValidParenthesis() { }
-
         public static bool IsValid(string s)
         {
             var lookup = new Dictionary<char, char>()

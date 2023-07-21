@@ -58,6 +58,13 @@ namespace LeetCode.Easy
 
             return current.Next;
         }
+
+        public void Example()
+        {
+            var l1 = new ListNode() { val = 1, Next = new ListNode() { val = 2, Next = new ListNode() { val = 4 } } };
+            var l2 = new ListNode() { val = 1, Next = new ListNode() { val = 3, Next = new ListNode() { val = 4 } } };
+            Console.WriteLine(MergeSortedLists.MergeTwoLists(l1, l2));
+        }
     }
 }
 
