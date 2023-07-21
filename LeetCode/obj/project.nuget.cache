@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "mQKM6coCXEzIboFOZHlJXcG+Km9ltu03ewEH34EqrRfLeWRa+2o1akJ/SvA04lK1qdP4zeiaAVlPhspnj35Rdw==",
+=======
+  "dgSpecHash": "mgrS+Vh6i8y7+Sgv2Z7JboZPpgF9GjWdve/oh3fvr8jIa/FwPlKprBaTIoID8r40MzLNI0QBNYpvWilzlUBdJQ==",
+>>>>>>> 3c951486d8357721ab052d762b02667817fdbfc7
   "success": true,
   "projectFilePath": "C:\\Users\\danma\\Documents\\Github\\LeetCode\\LeetCode\\LeetCode.csproj",
   "expectedPackageFiles": [],

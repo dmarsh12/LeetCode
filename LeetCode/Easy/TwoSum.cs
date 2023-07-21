@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCode.Easy
+﻿namespace LeetCode.Easy
 {
     //Given an array of integers nums and an integer target, return indices
     //of the two numbers such that they add up to target.
@@ -17,7 +11,7 @@ namespace LeetCode.Easy
     //Output: [0,1]
     //Explanation: Because nums[0] + nums[1] == 9, we return [0, 1]
 
-    public class TwoSum
+    public class TwoSum : Problem
     {
         public int[] NumberArray { get; set; } = new int[] { 2, 7, 11, 15};
 

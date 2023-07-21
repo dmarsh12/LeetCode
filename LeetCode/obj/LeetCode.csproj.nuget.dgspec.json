@@ -25,9 +25,13 @@
           "net6.0"
         ],
         "sources": {
+<<<<<<< HEAD
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://aka.ms/maui-preview/index.json": {},
+=======
+          "/usr/local/share/dotnet/library-packs": {},
+>>>>>>> 3c951486d8357721ab052d762b02667817fdbfc7
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.devexpress.com/PdAkrAXCs2AsCz1takggOyXDxTWRMjPlRUGcekDyGdeZF5rQRL/api": {}
         },
@@ -62,7 +66,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+>>>>>>> 3c951486d8357721ab052d762b02667817fdbfc7
         }
       }
     }
