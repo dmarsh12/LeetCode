@@ -7,5 +7,9 @@ using LeetCode.Medium;
 
 //BestStockTime.ExampleOne();
 //BestStockTime.ExampleTwo();
-BestStockTime.ExampleThree();
+//.BestStockTime.ExampleThree();
 //BestStockTime.ExampleFour();
+
+//ValidPalindrome.ExampleOne();
+//ValidPalindrome.ExampleTwo();
+ValidPalindrome.ExampleThree();
