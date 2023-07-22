@@ -16,4 +16,8 @@ using LeetCode.Medium;
 
 //InvertBinaryTree.ExampleOne();
 
-ValidAnagram.ExampleOne();
+//ValidAnagram.ExampleOne();
+
+BinarySearch.ExampleOne();
+//BinarySearch.ExampleTwo();
+//BinarySearch.ExampleThree();
