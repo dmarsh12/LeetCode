@@ -12,4 +12,8 @@ using LeetCode.Medium;
 
 //ValidPalindrome.ExampleOne();
 //ValidPalindrome.ExampleTwo();
-ValidPalindrome.ExampleThree();
+//ValidPalindrome.ExampleThree();
+
+//InvertBinaryTree.ExampleOne();
+
+ValidAnagram.ExampleOne();

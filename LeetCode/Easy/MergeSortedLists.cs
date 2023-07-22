@@ -1,7 +1,9 @@
 ﻿using System;
+using LeetCode.Models;
+
 namespace LeetCode.Easy
 {
-	public class MergeSortedLists
+    public class MergeSortedLists
 	{
         /**
          * Definition for singly-linked list.

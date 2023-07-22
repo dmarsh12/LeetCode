@@ -1,7 +1,9 @@
 ﻿using System;
+using LeetCode.Models;
+
 namespace LeetCode.Medium
 {
-	public class AddTwoNumbers
+    public class AddTwoNumbers
 	{
         public AddTwoNumbers()
         {

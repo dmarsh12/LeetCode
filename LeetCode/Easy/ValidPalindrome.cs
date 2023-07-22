@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Easy
 {
+    /// <summary>
+    /// Grind 75
+    /// </summary>
     public static class ValidPalindrome
     {
-        //        A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward.Alphanumeric characters include letters and numbers.
-        //        Given a string s, return true if it is a palindrome, or false otherwise.
-
-
+        //  A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward.Alphanumeric characters include letters and numbers.
+        //  Given a string s, return true if it is a palindrome, or false otherwise.
 
         //Example 1:
 
