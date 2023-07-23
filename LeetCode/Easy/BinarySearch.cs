@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,17 +29,15 @@ namespace LeetCode.Easy
 
         public static int Search(int[] numbers, int value)
         {
-            var result = -1;
-
             if (numbers[0] == value)
-                return 0;
-
-            if (numbers[numbers.Length - 1] == value)
-                return numbers.Length - 1;
+                return 0; 
+            
+            if (numbers[numbers.Length-1] == value) 
+                return numbers.Length-1;
 
             var start = 0;
-            var end = numbers.Length - 1;
-           
+            var end = numbers.Length-1;
+
             while (start <= end)
             {
                 var mid = (start + end) / 2;
@@ -46,20 +45,18 @@ namespace LeetCode.Easy
                 var foundValue = numbers[mid];
                 if (foundValue == value)
                     return mid;
+
+                if (foundValue < value)
+                {
+                    start = mid + 1; 
+                }
                 else
                 {
-                    if (foundValue > value)
-                    {
-                        end = mid;
-                    }
-                    else if (foundValue < value)
-                    {
-                        start = mid + 1;
-                    }
+                    end = mid;
                 }
             }
 
-            return result;
+            return -1;
         }
     }
 }
