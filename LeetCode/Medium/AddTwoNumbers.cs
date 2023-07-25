@@ -25,9 +25,9 @@ namespace LeetCode.Medium
             {
 
 				numberOne += currentListNodeOne.val.ToString();
-				if (!numberOneFound && currentListNodeOne.Next != null)
+				if (!numberOneFound && currentListNodeOne.next != null)
                 {
-					currentListNodeOne = currentListNodeOne.Next;
+					currentListNodeOne = currentListNodeOne.next;
                 }
 				else
                 {
@@ -35,9 +35,9 @@ namespace LeetCode.Medium
                 }
 
 				numberTwo += currentListNodeTwo.val.ToString();
-				if (!numberTwoFound && currentListNodeTwo.Next != null)
+				if (!numberTwoFound && currentListNodeTwo.next != null)
 				{
-					currentListNodeTwo = currentListNodeTwo.Next;
+					currentListNodeTwo = currentListNodeTwo.next;
 				}
 				else
 				{
@@ -81,12 +81,12 @@ namespace LeetCode.Medium
 
 				var current = head;
 
-				while (current.Next != null)
+				while (current.next != null)
                 {
-					current = current.Next;
+					current = current.next;
                 }
 
-				current.Next = nextNode;
+				current.next = nextNode;
 
             }
 

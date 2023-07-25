@@ -39,32 +39,32 @@ namespace LeetCode.Easy
             {
                 if (l1.val < l2.val)
                 {
-                    temp.Next = l1;
-                    l1 = l1.Next;
+                    temp.next = l1;
+                    l1 = l1.next;
                 }
                 else
                 {
-                    temp.Next = l2;
-                    l2 = l2.Next;
+                    temp.next = l2;
+                    l2 = l2.next;
                 }
 
                 if (l1 != null && l2 != null)
-                    temp = temp.Next; // any changes to next impact current next. 
+                    temp = temp.next; // any changes to next impact current next. 
             }
 
             if (l1 != null)
-                temp.Next = l1;
+                temp.next = l1;
 
             if (l2 != null)
-                temp.Next = l2;
+                temp.next = l2;
 
-            return current.Next;
+            return current.next;
         }
 
         public void Example()
         {
-            var l1 = new ListNode() { val = 1, Next = new ListNode() { val = 2, Next = new ListNode() { val = 4 } } };
-            var l2 = new ListNode() { val = 1, Next = new ListNode() { val = 3, Next = new ListNode() { val = 4 } } };
+            var l1 = new ListNode() { val = 1, next = new ListNode() { val = 2, next = new ListNode() { val = 4 } } };
+            var l2 = new ListNode() { val = 1, next = new ListNode() { val = 3, next = new ListNode() { val = 4 } } };
             Console.WriteLine(MergeSortedLists.MergeTwoLists(l1, l2));
         }
     }
