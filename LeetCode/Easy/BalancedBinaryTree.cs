@@ -16,7 +16,7 @@ namespace LeetCode.Easy
             Console.WriteLine(IsBalanced(root));
         }
 
-        private bool res = true;
+        private static bool res = true;
         public static bool IsBalanced(TreeNode root)
         {
 

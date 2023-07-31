@@ -52,7 +52,7 @@ namespace LeetCode.Easy
                 }
                 else
                 {
-                    end = mid;
+                    end = mid - 1;
                 }
             }
 
