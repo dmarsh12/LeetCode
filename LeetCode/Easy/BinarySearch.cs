@@ -40,7 +40,7 @@ namespace LeetCode.Easy
 
             while (start <= end)
             {
-                var mid = (start + end) / 2;
+                var mid = start + ((end - start) / 2);
 
                 var foundValue = numbers[mid];
                 if (foundValue == value)

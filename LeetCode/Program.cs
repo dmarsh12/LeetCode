@@ -28,5 +28,7 @@ using LeetCode.Medium;
 
 //BalancedBinaryTree.ExampleOne();
 
-var fbv = new FirstBadVersion();
-fbv.ExampleOne();   
+//var fbv = new FirstBadVersion();
+//fbv.ExampleOne();
+
+Console.WriteLine(ClimbingStairs.Climb(5));
