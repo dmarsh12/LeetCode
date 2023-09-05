@@ -26,4 +26,9 @@ using LeetCode.Medium;
 
 //LowestCommonAncestor.ExampleOne();
 
-BalancedBinaryTree.ExampleOne();
+//BalancedBinaryTree.ExampleOne();
+
+//var fbv = new FirstBadVersion();
+//fbv.ExampleOne();
+
+Console.WriteLine(ClimbingStairs.Climb(5));
