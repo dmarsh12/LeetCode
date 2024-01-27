@@ -31,6 +31,16 @@ using LeetCode.Medium;
 //var fbv = new FirstBadVersion();
 //fbv.ExampleOne();
 
-//Console.WriteLine(ClimbingStairs.Climb(5));
+//LongestPalimdrone.Find("aabcdsdd");
 
-ReverseLinkedList.ExampleOne();
+//ReverseLinkedList.ExampleOne();
+
+//RomanToInt.Execute("MCMXCIV");
+
+//RemoveElement.Remove(new int[] { 3, 2, 2, 3 }, 3);
+
+//var nums = new int[] { 1, 1, 2 };
+//RemoveDuplicates.Remove(nums);
+//Console.WriteLine(nums);
+
+RotateArray.Execute(new int[] { 1, 2, 3, 4, 5, 6, 7 }, 3);

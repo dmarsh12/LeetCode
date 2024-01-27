@@ -13,14 +13,14 @@ namespace LeetCode.Easy
     //        Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
     public static class BestStockTime
     {
-
+        
         // 5
         public static void ExampleOne()
         {
             var prices = new int[] { 7, 1, 5, 3, 6, 4 };
             Console.WriteLine(MaxProfit(prices));
         }
-
+        
         // 0
         public static void ExampleTwo() 
         {
