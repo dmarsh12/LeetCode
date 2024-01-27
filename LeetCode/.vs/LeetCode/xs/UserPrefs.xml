@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{9C7C422B-384C-46F7-9F2E-C882FE76E563}|Default">
-  <MonoDevelop.Ide.ItemProperties.LeetCode PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Easy/FirstBadVersion.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Easy/RotateArray.cs">
     <Files>
-      <File FileName="Easy/TwoSum.cs" />
-      <File FileName="Medium/AddTwoNumbers.cs" />
-      <File FileName="Program.cs" />
-      <File FileName="Medium/TopLeftQuadrant.cs" />
-      <File FileName="Easy/ValidParenthesis.cs" />
-      <File FileName="Easy/MergeSortedLists.cs" />
-      <File FileName="Easy/MyQueueWithStack.cs" />
-      <File FileName="Easy/FirstBadVersion.cs" Line="37" Column="4" />
-      <File FileName="Models/VersionControl.cs" />
-      <File FileName="Easy/BinarySearch.cs" />
+      <File FileName="Program.cs" Line="46" Column="54" />
+      <File FileName="Easy/LongestPalimdrone.cs" Line="20" Column="21" />
+      <File FileName="Easy/RomanToInt.cs" Line="26" Column="19" />
+      <File FileName="Easy/TwoSum.cs" Line="1" Column="1" />
+      <File FileName="Easy/MergeSortedArray.cs" Line="17" Column="56" />
+      <File FileName="Easy/LowestCommonAncestor.cs" Line="1" Column="1" />
+      <File FileName="Easy/MergeSortedLists.cs" Line="1" Column="1" />
+      <File FileName="Easy/RemoveElement.cs" Line="20" Column="3" />
+      <File FileName="Easy/RemoveDuplicates.cs" Line="21" Column="4" />
+      <File FileName="Easy/MajorityElement.cs" Line="12" Column="2" />
+      <File FileName="Easy/RotateArray.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +19,7 @@
           <Node name="LeetCode">
             <Node name="LeetCode">
               <Node name="Easy" expanded="True">
-                <Node name="FirstBadVersion.cs" selected="True" />
+                <Node name="RotateArray.cs" selected="True" />
               </Node>
               <Node name="Medium" expanded="True" />
               <Node name="Models" expanded="True" />
@@ -29,15 +29,22 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LeetCode PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/danielmarshall/Documents/GitHub/LeetCode/LeetCode/Medium/AddTwoNumbers.cs" relfile="Medium/AddTwoNumbers.cs" line="92" column="1" />
       <Breakpoint file="/Users/danielmarshall/Documents/GitHub/LeetCode/LeetCode/ListNode.cs" relfile="ListNode.cs" line="18" column="1" />
       <Breakpoint file="/Users/danielmarshall/Documents/GitHub/LeetCode/LeetCode/Easy/MergeSortedLists.cs" relfile="Easy/MergeSortedLists.cs" line="66" column="1" />
-      <Breakpoint file="/Users/danielmarshall/Documents/GitHub/LeetCode/LeetCode/Easy/FirstBadVersion.cs" relfile="Easy/FirstBadVersion.cs" line="16" column="1" />
+      <Breakpoint file="/Users/danielmarshall/Documents/GitHub/LeetCode/LeetCode/Easy/FirstBadVersion.cs" relfile="Easy/FirstBadVersion.cs" line="17" column="1" />
+      <Breakpoint file="/Users/danielmarshall/Documents/GitHub/LeetCode/LeetCode/Easy/ReverseLinkedList.cs" relfile="Easy/ReverseLinkedList.cs" line="36" column="1" />
+      <Breakpoint file="/Users/danielmarshall/Documents/GitHub/LeetCode/LeetCode/Easy/ReverseLinkedList.cs" relfile="Easy/ReverseLinkedList.cs" line="30" column="1" />
+      <Breakpoint file="/Users/danielmarshall/Documents/GitHub/LeetCode/LeetCode/Easy/RomanToInt.cs" relfile="Easy/RomanToInt.cs" line="38" column="1" />
+      <Breakpoint file="/Users/danielmarshall/Documents/GitHub/LeetCode/LeetCode/Easy/RemoveElement.cs" relfile="Easy/RemoveElement.cs" line="18" column="1" />
+      <Breakpoint file="/Users/danielmarshall/Documents/GitHub/LeetCode/LeetCode/Easy/RemoveDuplicates.cs" relfile="Easy/RemoveDuplicates.cs" line="12" column="1" />
+      <Breakpoint file="/Users/danielmarshall/Documents/GitHub/LeetCode/LeetCode/Easy/RotateArray.cs" relfile="Easy/RotateArray.cs" line="24" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
