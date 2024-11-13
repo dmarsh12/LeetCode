@@ -43,12 +43,12 @@
         {
             var hashMap = new Dictionary<int, int>();
             
-            for (int i = 0; i < nums.Length; i++)
+            for (var i = 0; i < nums.Length; i++)
             {
-                int numberToCheck = nums[i];
+                var numberToCheck = nums[i];
                 var valueThatAddsToTarget = target - numberToCheck;
                 if (hashMap.TryGetValue(valueThatAddsToTarget, out int index))
-                    return new int[] { i, index };
+                    return new[] { index+1, i+1 };
 
                 hashMap[numberToCheck] = i;
             }

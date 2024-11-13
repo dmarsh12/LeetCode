@@ -40,6 +40,22 @@ namespace LeetCode.Easy
             Console.WriteLine(MaxProfit(prices));
         }
 
+        public static int MaxProfitAgain(int[] prices)
+        {
+            var maxProfit = 0;
+            var min = prices[0];
+            for (var i = 1; i < prices.Length; i++){
+                if (prices[i] < min)
+                    min = prices[i];
+
+                var currentProfit = prices[i] - min;
+                if (currentProfit > maxProfit)
+                    maxProfit = currentProfit;
+            }
+
+            return maxProfit;
+        }
+
         // O(n^2)
         public static int MaxProfitBad(int[] prices)
         {
