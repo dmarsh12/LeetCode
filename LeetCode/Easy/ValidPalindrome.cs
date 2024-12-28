@@ -34,6 +34,28 @@ namespace LeetCode.Easy
             Console.WriteLine(IsPalindrome("0P"));
         }
 
+        public static bool IsPalindromeTwoPointer(string s)
+        {
+            var left = 0;
+            var right = s.Length - 1;
+
+            while (left != right)
+            {
+                while (!Char.IsLetter(s[left]))
+                    left++;
+                while (!Char.IsLetter(s[right]))
+                    right--;
+            
+                if (Char.ToLower(s[left]) != Char.ToLower(s[right]))
+                    return false;
+            
+                left++;
+                right--;
+            }
+
+            return true;
+        }
+
         public static bool IsPalindrome(string s)
         {
             var newString = new String(s.ToLower().Where(c => Char.IsLetter(c) || Char.IsNumber(c)).ToArray());
