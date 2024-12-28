@@ -8,6 +8,9 @@ namespace LeetCode.Easy
 			if (k == 0)
 				return;
 
+			if (k > nums.Length)
+				return;
+
 			var temp = new int[nums.Length];
 
 			for (int i = 0; i < nums.Length; i++)
@@ -15,11 +18,11 @@ namespace LeetCode.Easy
 
 			for (int i = 0; i < nums.Length; i++)
 			{
-				var newIndex = k + i + 1;
+				var newIndex = k + i;
 				if (newIndex >= nums.Length)
 					newIndex -= nums.Length;
 
-				nums[i] = temp[newIndex];
+				nums[newIndex] = temp[i];
 			}
 		}
 	}

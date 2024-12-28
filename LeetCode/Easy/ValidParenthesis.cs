@@ -53,7 +53,8 @@ namespace LeetCode.Easy
                 {
                     return false;
                 }
-                else if (lookup.TryGetValue(character, out var expected))
+                
+                if (lookup.TryGetValue(character, out var expected))
                 {
                     if (stack.Peek() != expected)
                         return false;

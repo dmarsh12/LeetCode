@@ -4,6 +4,7 @@
 using LeetCode;
 using LeetCode.Easy;
 using LeetCode.Medium;
+using LeetCode.Models;
 
 //BestStockTime.ExampleOne();
 //BestStockTime.ExampleTwo();
@@ -43,4 +44,20 @@ using LeetCode.Medium;
 //RemoveDuplicates.Remove(nums);
 //Console.WriteLine(nums);
 
-RotateArray.Execute(new int[] { 1, 2, 3, 4, 5, 6, 7 }, 3);
+//RotateArray.Execute(new int[] { 1, 2, 3, 4, 5, 6, 7 }, 3);
+
+// var reversed = ReverseWords.Execute(" this is not in reverse ");
+// Console.WriteLine(reversed);
+
+ProductOfArray.Execute(new[] { 2,1, 3, 4 });
+
+// var root = new TreeNode(1, 
+//     new TreeNode(2, 
+//         new TreeNode(4), 
+//         null
+//     ), 
+//     null
+// );
+// Console.WriteLine(MaxDepthBinaryTree.MaxDepth(root));
+
+//Testing.Test(new[] {1, 1, 1, 2, 2, 3});
