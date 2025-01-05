@@ -18,15 +18,18 @@ namespace LeetCode.Easy
 
         public static TreeNode FindLowest(TreeNode root, TreeNode p, TreeNode q)
         {
-            // Since both are less than the root, we know that it must be on the left side from here
-            // As the lower number in a BST is on the left...
-            if (p.val < root.val && q.val < root.val)
-                return FindLowest(root.left, p, q);
+            if (root is not null)
+            {
+                // Since both are less than the root, we know that it must be on the left side from here
+                // As the lower number in a BST is on the left...
+                if (p.val < root.val && q.val < root.val)
+                    return FindLowest(root.left, p, q);
 
-            // Since both are greater than the root, we know that we should search the ride side
-            // as the larger number in a BST is on the right...
-            if (p.val > root.val && q.val > root.val)
-                return FindLowest(root.right, p, q);
+                // Since both are greater than the root, we know that we should search the ride side
+                // as the larger number in a BST is on the right...
+                if (p.val > root.val && q.val > root.val)
+                    return FindLowest(root.right, p, q);
+            }
 
             return root;
         }
