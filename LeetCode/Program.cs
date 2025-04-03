@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+﻿using LeetCode.Medium.Matrix;
 
 using LeetCode;
 using LeetCode.Easy;
@@ -13,7 +12,9 @@ using LeetCode.Models;
 using TwoSum = LeetCode.Hashmaps.Easy.TwoSum;
 using ValidParenthesis = LeetCode.Stacks.Easy.ValidParenthesis;
 
-TextJustification.FullJustify(new string[] { "This", "is", "an", "example", "of", "text", "justification." }, 16);
+//TextJustification.FullJustify(new string[] { "This", "is", "an", "example", "of", "text", "justification." }, 16);
+
+Console.WriteLine(ZigZag.Execute("PAYPALISHIRING", 4));
 
 
 //LongestCommonPrefix.Execute(new string[] { "flower", "flow", "flight" });
