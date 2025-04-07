@@ -8,13 +8,15 @@ using LeetCode.Intervals.Medium;
 using LeetCode.Medium;
 using LeetCode.Medium.Arrays;
 using LeetCode.Medium.LinkedLists;
+using LeetCode.Medium.Strings;
 using LeetCode.Models;
 using TwoSum = LeetCode.Hashmaps.Easy.TwoSum;
 using ValidParenthesis = LeetCode.Stacks.Easy.ValidParenthesis;
 
 //TextJustification.FullJustify(new string[] { "This", "is", "an", "example", "of", "text", "justification." }, 16);
 
-Console.WriteLine(ZigZag.Execute("PAYPALISHIRING", 4));
+StringCompression.Execute(new char[] { 'a', 'a', 'b', 'b', 'c', 'd' }); 
+//Console.WriteLine(ZigZag.Execute("PAYPALISHIRING", 4));
 
 
 //LongestCommonPrefix.Execute(new string[] { "flower", "flow", "flight" });
