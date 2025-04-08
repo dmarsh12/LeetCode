@@ -15,9 +15,9 @@ using ValidParenthesis = LeetCode.Stacks.Easy.ValidParenthesis;
 
 //TextJustification.FullJustify(new string[] { "This", "is", "an", "example", "of", "text", "justification." }, 16);
 
-StringCompression.Execute(new char[] { 'a', 'a', 'b', 'b', 'c', 'd' }); 
+//StringCompression.Execute(new char[] { 'a', 'a', 'b', 'b', 'c', 'd' }); 
 //Console.WriteLine(ZigZag.Execute("PAYPALISHIRING", 4));
-
+IncreasingTriplet.Execute(new[] { 1, 5, 0, 3, 1, 3 });
 
 //LongestCommonPrefix.Execute(new string[] { "flower", "flow", "flight" });
 //MaxProfit.Execute(new[] { 1, 2, 3, 4, 5 });
